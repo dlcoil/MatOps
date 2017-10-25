@@ -13,7 +13,7 @@ void multiply (float** a, float** b, float** c, int n)
 	c[i][j] = a[i][k] * b[k][j];
 }
 
-----------------------------------------------------------
+//----------------------------------------------------------
 
 void print_matrix(float** a, int n, char* mat_name)
 {
