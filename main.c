@@ -1,10 +1,4 @@
-#include <math.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
-#include <stdbool.h>
-
-
+#include "matops.h"
 
 //------------------------------------------------------
 
@@ -57,15 +51,7 @@ int main(int argc, char*argv[])
       b[i][j] = i+j;
       c[i][j] = 0;
     }
-  }
-
-  multiply(a,b,c,n);
-  printf("Simple Matrix Multiplication!\n\n");
-  print_matrix(a, n, "A");
-  print_matrix(b, n, "B");
-  print_matrix(c, n, "C=A*B");
-  return 0;
+  } 
 }
-
 
 //------------------------------------------------------
